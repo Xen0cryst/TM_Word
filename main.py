@@ -5,15 +5,15 @@ from PyQt5.QtGui import *
 from PyQt5.QtPrintSupport import *
 
 
-class BSWord(QMainWindow):
+class TmWord(QMainWindow):
     def __init__(self):
-        super(BSWord, self).__init__()
+        super(TmWord, self).__init__()
         self.editor = QTextEdit()
         self.editor.setFontPointSize(20)
         self.setCentralWidget(self.editor)
         self.font_size_box = QSpinBox()
         self.showMaximized()
-        self.setWindowTitle('My BS Word')
+        self.setWindowTitle('My TM Word')
         self.create_tool_bar()
         self.create_menu_bar()
 
@@ -83,6 +83,6 @@ class BSWord(QMainWindow):
 
 
 app = QApplication(sys.argv)
-window = BSWord()
+window = TmWord()
 window.show()
 sys.exit(app.exec_())
