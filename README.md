@@ -15,7 +15,7 @@ TM_Word is a Python project that aims to create a simplified word processing app
 ## How to Use
 
 1. **Clone the Repository:**
-git clone https://github.com/zakialmarzan/TM_Word.git
+git clone https://github.com/Xen0cryst/TM_Word.git
  
 2. **Run the Application:**
 python main.py
